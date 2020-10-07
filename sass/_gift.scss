@@ -1,0 +1,166 @@
+
+/*----------------------------------------------
+	Gift Style
+-----------------------------------------------*/
+
+.send-gift {
+	background: $white;
+  border-radius: 50px;
+  box-shadow: 0px 100px 180px 20px rgba(21, 14, 75, 0.05);
+  padding: 100px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -170px;
+  .title {
+  	flex: 0 0 315px;
+  	h3 {
+  		font-size: 3.0rem;
+  		font-weight: 500;
+  		color: $headerColor;
+  		font-family: $bodyFont;
+  		img {
+  			margin-right: 15px;
+  			margin-top: -10px;
+  		}
+  	}
+  }
+	.gift-form  {
+		flex: 0 0 calc(100% - 390px);
+		form {
+			display: flex;
+			align-items: flex-end;
+			justify-content: space-between;
+			.form-group {
+				flex: 0 0 calc(50% - 140px);
+				position: relative;
+				margin: 12px 0;
+				span {
+					position: absolute;
+					bottom: 30px;
+					right: 30px;
+					height: 0;
+					width: 0;
+					border-top: 10px solid $ghostWhite;
+					border-left: 10px solid transparent;
+					border-right: 10px solid transparent;
+				}
+				label {
+					font-size: 1.8rem;
+					font-weight: 400;
+					color: $headerColor;
+					font-family: $bodyFont;
+					margin-bottom: 10px;
+				}
+				.form-control {
+					height: 70px;
+					width: 100%;
+					padding-right: 0;
+					padding-left: 30px;
+					color: $logan;
+			    -moz-appearance: none;
+			    -webkit-appearance: none;
+			    appearance: none;
+			    outline: none;
+			    box-shadow: none;
+			    border: 0;
+			    border: 2px solid rgba($headerColor, .05);
+			    border-radius: 20px;
+			    font-size: 1.6rem;
+					option {
+						color: $fontColor;
+					}
+				}
+			}
+			.btn {
+				flex: 0 0 230px;
+				height: 70px;
+				margin: 12px 0;
+			}
+		}
+	}
+}
+
+
+
+/*----------------------------------------------
+	DatePicker Style
+-----------------------------------------------*/
+
+#ui-datepicker-div {
+	z-index: 5 !important;
+}
+
+.ui-widget.ui-widget-content {
+	border: 1px solid rgba($headerColor, .05);
+	padding: 5px;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	background: transparent;
+	border: 0;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	background: url(../images/chevron-left.svg);
+}
+
+.ui-datepicker .ui-datepicker-next {
+	background: url(../images/chevron-right.svg);
+}
+
+.ui-datepicker .ui-datepicker-prev, 
+.ui-datepicker .ui-datepicker-next {
+	width: 1.2em;
+}
+
+.ui-datepicker .ui-state-hover {
+	border-color: transparent;
+}
+
+.ui-widget-content .ui-state-default {
+	border: 0;
+	background: transparent;
+}
+
+.ui-widget-content .ui-state-active, {
+	color: $headerColor;
+}
+
+
+@media all and (max-width: 1599px) {
+	.send-gift {
+		display: block;
+		padding: 70px;
+		.title {
+			margin-bottom: 40px;
+		}
+	}
+}
+
+@media all and (max-width: 991px) {
+	.send-gift .gift-form form {
+		display: block;
+		.form-group {
+			margin-top: 0;
+			margin-bottom: 25px;
+		}
+		.btn {
+			margin-bottom: 0;
+			margin-top: 0;
+			width: 230px;
+		}
+	}
+}
+
+@media all and (max-width: 575px) {
+	.send-gift {
+		padding: 70px 30px;
+		.title h3 {
+			font-size: 2.2rem;
+			img {
+				height: 30px;
+			}
+		}
+	}
+}

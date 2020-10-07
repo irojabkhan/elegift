@@ -1,0 +1,105 @@
+
+/*----------------------------------------------
+	About Style
+-----------------------------------------------*/
+
+.featured-content {
+	h2 {
+		font-size: 5.0rem;
+		font-weight: 500;
+		color: $headerColor;
+		font-family: $bodyFont;
+		line-height: 1.8;
+		margin-bottom: 22px;
+	}
+	p {
+		font-size: 1.8rem;
+		font-weight: 400;
+		color: $fontColor;
+		font-family: $bodyFont;
+		line-height: 2.2;
+		margin-bottom: 60px;
+	}
+}
+
+.promo-video-bg {
+	background: url(../images/bg/promo-video-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.promo-video {
+	height: 550px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.play-btn {
+		height: 80px;
+		width: 80px;
+		border-radius: 50%;
+		text-align: center;
+		background: $white;
+		line-height: 80px;
+		text-align: center;
+		span {
+			position: relative;
+			height: 80px;
+			width: 80px;
+			border-radius: 50%;
+	  	display: inline-block;
+		  &:before {
+		  	position: absolute;
+		  	top: 50%;
+		  	left: 52%;
+		  	transform: translate(-50%, -50%);
+		  	width: 0; 
+				height: 0; 
+				border-top: 8px solid transparent;
+				border-bottom: 8px solid transparent;
+				border-left: 12px solid $redDeep2;
+				content: '';
+		  }
+		  &:after {
+		  	position: absolute;
+		  	top: 50%;
+		  	left: 50%;
+		  	transform: translate(-50%, -50%);
+		  	height: 50%;
+		  	width: 50%;
+		  	border-radius: 50%;
+		  	background-image: linear-gradient(to left, $redLite, $redDeep);
+		  	opacity: .15;
+		  	content: '';
+		  	z-index: 2;
+		  	animation: wave 2s linear infinite;
+		  }
+		}
+	}
+}
+
+@keyframes wave{
+  0%{
+    height: 50%;
+    width: 50%;
+  }
+  50%{
+    height: 100%;
+    width: 100%;
+  }
+  to{
+    height: 50%;
+    width: 50%;
+  }
+}
+
+
+@media all and  (max-width: 767px) {
+	.featured-content {
+		h2 {
+			font-size: 3.2rem;
+		}
+	}
+	.promo-video {
+		height: 400px;
+	}
+}

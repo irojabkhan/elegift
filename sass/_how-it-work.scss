@@ -1,0 +1,67 @@
+
+/*----------------------------------------------
+	How it Work Style
+-----------------------------------------------*/
+
+.how-it-work {
+	padding: 70px 30px 50px;
+	border-radius: 30px;
+	margin-bottom: 50px;
+	transition: all .3s ease;
+	&:hover {
+		background: $white;
+	}
+	h4 {
+		font-size: 2.4rem;
+		font-weight: 500;
+		color: $headerColor;
+		font-family: $bodyFont;
+		line-height: 1.66;
+		margin-bottom: 25px;
+	}
+	p {
+		font-size: 1.8rem;
+		font-weight: 400;
+		color: $fontColor;
+		font-family: $bodyFont;
+		line-height: 2.2;
+		margin-bottom: 40px;
+	}
+	.btn {
+		border: 2px solid rgba($headerColor, .1);
+		color: $headerColor;
+		background: rgba($liteGrey, .1);
+		&:before {
+			border-radius: 15px;
+			background-image: linear-gradient(to left, $redLite, $redDeep);
+			opacity: 0;
+		}
+		&:after {
+			background: linear-gradient(to right, #ed6c71, #ff3cc1);
+			opacity: 0;
+			-webkit-filter: blur(20px);
+			-moz-filter: blur(20px);
+			-o-filter: blur(20px);
+			-ms-filter: blur(20px);
+			filter: blur(20px);
+		}
+		&:hover {
+			border-color: transparent;
+			color: $white;
+			&:before {
+				opacity: 1;
+			}
+			&:after {
+				opacity: .2;
+			}
+		}
+	}
+}
+
+
+
+@media all and (max-width: 575px) {
+	.how-it-work {
+		padding: 50px 30px;
+	}
+}

@@ -1,0 +1,34 @@
+/*----------------------------------------------
+	Product Style
+-----------------------------------------------*/
+
+.service {
+	background: $white;
+	border-radius: 30px;
+	padding: 70px 50px 90px;
+	margin-bottom: 50px;
+	.icon {
+		margin-bottom: 35px;
+	}
+	h3 {
+		font-size: 2.4rem;
+		font-weight: 500;
+		color: $headerColor;
+		font-family: $bodyFont;
+		margin-bottom: 35px;
+	}
+	p {
+		font-size: 1.5rem;
+		line-height: 2;
+		font-weight: 400;
+		color: $fontColor;
+		font-family: $bodyFont;
+	}
+}
+
+
+@media all and (max-width: 499px) {
+	.service {
+		padding: 70px 40px 90px;
+	}
+}

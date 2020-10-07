@@ -1,0 +1,65 @@
+
+/*----------------------------------------------
+	Footer Style
+-----------------------------------------------*/
+
+.copyright {
+	text-align: center;
+	p {
+		font-size: 1.8rem;
+		font-weight: 500;
+		color: $headerColor;
+		font-family: $bodyFont;
+	}
+}
+
+.footer-social-link {
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		li {
+			+ li {
+				margin-left: 10px;
+			}
+			a {
+				height: 40px;
+				width: 40px;
+				border-radius: 50%;
+				line-height: 40px;
+				text-align: center;
+				color: $white;
+				font-size: 1.8rem;
+				&.facebook {
+					background: $facebook;
+				}
+				&.twitter {
+					background: $twitter;
+				}
+				&.linkedin {
+					background: $linkedin;
+				}
+				&.instagram {
+					background: $instagram;
+				}
+			}
+		}
+	}
+}
+
+
+@media all and (max-width: 991px) {
+	.footer-logo {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.footer-social-link {
+		margin-bottom: 40px;
+		ul {
+			justify-content: center;
+		}
+	}
+}
+

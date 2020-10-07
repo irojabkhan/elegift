@@ -1,0 +1,200 @@
+
+/*----------------------------------------------
+	Navigation Style
+-----------------------------------------------*/
+
+header {
+	position: relative;
+	.nav-wrap {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9;
+		transition: all .3s ease;
+		padding-top: 25px;
+		&.fixed {
+			position: fixed;
+			background: $white;
+			padding-top: 0;
+			box-shadow: 0 2px 5px rgba($headerColor, .1);
+		}
+	}
+}
+
+.wpd-nav {
+	padding: 20px 0;
+	.navbar-brand-wrap {
+		order: 1;
+		flex: 0 0 200px;
+		.navbar-brand {
+			padding: 0;
+			img {
+				transition: all .3s ease;
+			}
+		}
+	}
+	.signup-btn {
+		order: 3;
+		a {
+			position: relative;
+			height: 60px;
+			width: 200px;
+			text-align: center;
+			font-size: 1.8rem;
+			font-weight: 500;
+			color: $headerColor;
+			font-family: $bodyFont;
+			text-transform: uppercase;
+			line-height: 60px;
+			border-radius: 15px;
+			padding: 0;
+			z-index: 3;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				border-radius: 15px;
+				z-index: -2;
+				border: 2px solid $redDeep;
+				transition: all .3s ease;
+			}
+			&:hover {
+				color: $white;
+				&:before {
+					opacity: 0;
+				}
+				&:after {
+					opacity: 1;
+				}
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-image: linear-gradient(to left, $redLite, $redDeep);
+				border-radius: 15px;
+				z-index: -1;
+				transition: all .3s ease;
+				opacity: 0;
+			}
+			.icon {
+				display: none;
+			}
+		}
+	}
+	.navbar-collapse {
+		order: 2;
+		.navbar-nav {
+			.nav-item {
+				padding: 0 20px;
+				.nav-link {
+					font-size: 1.6rem;
+					font-weight: 400;
+					color: $fontColor;
+					font-family: $bodyFont;
+					padding: 5px;
+					text-transform: uppercase;
+					&:hover {
+						color: $headerColor;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+@media all and (max-width: 1199px) {
+	.wpd-nav {
+		.navbar-collapse {
+			.navbar-nav {
+				.nav-item {
+					padding: 0 10px;
+				}
+			}
+		}
+	}
+}
+
+
+@media all and (max-width: 991px) {
+	.wpd-nav {
+		padding: 15px 0;
+		.navbar-brand-wrap {
+			order: 1;
+			.navbar-brand {
+				img {
+					height: 40px;
+				}
+			}
+		}
+		.signup-btn {
+			order: 2;
+			margin-left: auto;
+			margin-right: 20px;
+			a {
+				height: 40px;
+				line-height: 40px;
+				width: 130px;
+				font-size: 1.4rem;
+			}
+		}
+		.navbar-toggler {
+			order: 3;
+			font-size: 2.8rem;
+			outline: none;
+			box-shadow: none;
+		}
+		.navbar-collapse {
+			position: absolute;
+			box-shadow: 0 2px 5px rgba($headerColor, .1);
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+			top: 100%;
+			width: 100%;
+			left: 0;
+			background: $white;
+			z-index: 9;
+			.navbar-nav {
+				padding: 20px 0;
+				.nav-item {
+					padding: 0 10px;
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 575px) {
+	.wpd-nav {
+		.navbar-brand-wrap {
+			flex: 0 0 auto;
+		}
+		.signup-btn {
+			margin-right: 10px;
+			a {
+				width: 40px;
+				border-radius: 50%;
+				&:before,
+				&:after {
+					border-radius: 50%;
+				}
+				.text {
+					display: none;
+				}
+				.icon {
+					display: block;
+					font-size: 2.4rem;
+				}
+			}
+		}
+	}
+}

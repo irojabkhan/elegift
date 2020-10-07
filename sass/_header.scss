@@ -1,0 +1,42 @@
+
+/*----------------------------------------------
+	Header Style
+-----------------------------------------------*/
+
+.section-header {
+	text-align: center;
+	max-width: 650px;
+	margin: 0 auto 85px;
+	h2 {
+		font-size: 5.0rem;
+		font-weight: 500;
+		color: $headerColor;
+		font-family: $bodyFont;
+		line-height: 1.8;
+	}
+	p {
+		font-size: 1.8rem;
+		font-weight: 400;
+		color: $fontColor;
+		font-family: $bodyFont;
+		line-height: 2.2;
+		margin-top: 25px;
+	}
+	&.long-header {
+		max-width: 950px;
+	}
+}
+
+@media all and (max-width: 991px) {
+	.section-header {
+		margin-bottom: 50px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.section-header {
+		h2 {
+			font-size: 3.2rem;
+		}
+	}
+}

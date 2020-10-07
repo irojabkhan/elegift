@@ -1,0 +1,76 @@
+
+/*----------------------------------------------
+	Categories Style
+-----------------------------------------------*/
+
+.category {
+	border-radius: 30px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 30px;
+	&:hover {
+		.overlay {
+			opacity: 1;
+		}
+		.content {
+			top: 50%;
+			a {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+	}
+	.thumb {
+		img {
+			width: 100%;
+		}
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba($headerColor, .5);
+		opacity: 0;
+		transition: all .3s ease;
+	}
+	.content {
+		position: absolute;
+		top: 95%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 80%;
+		text-align: center;
+		transition: all .3s ease;
+		h4 {
+			font-size: 3.0rem;
+			font-weight: 500;
+			color: $white;
+			font-family: $bodyFont;
+			margin-bottom: 20px;
+		}
+		a {
+			margin: 0 auto;
+			visibility: hidden;
+			opacity: 0;
+			border: 2px solid $white;
+			background: rgba($headerColor, .2);
+			&:hover {
+				background: $headerColor;
+				border-color: $headerColor;
+			}
+		}
+	}
+}
+
+
+@media all and (max-width: 1599px) {
+	.category {
+		.content {
+			h4 {
+				font-size: 2.2rem;
+			}
+		}
+	}
+}
