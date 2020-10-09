@@ -47,7 +47,12 @@ $(document).ready(function() {
 	/*--------------------------------------------
 	Date Picker
 	--------------------------------------------*/
-	$( "#datepicker" ).datepicker();
+	$("input.datepicker").datetimepicker({
+		timepicker: false,
+		lang: "it",
+		format: "d/m/Y",
+		todayButton: false,
+	});
 
 	/*--------------------------------------------
 	Magnific PopUp
@@ -72,6 +77,11 @@ $(document).ready(function() {
 	  }
 	});
 
+	/*----------------------------------------
+    WOW Js
+    ---------------------------------------*/
+
+    new WOW().init();
 
 })
 

@@ -770,46 +770,20 @@ header .nav-wrap.fixed {
 }
 
 /*----------------------------------------------
-	DatePicker Style
+	DatetimePicker Style
 -----------------------------------------------*/
-#ui-datepicker-div {
-  z-index: 5 !important;
+.xdsoft_datetimepicker .xdsoft_today_button {
+  display: none;
 }
 
-.ui-widget.ui-widget-content {
-  border: 1px solid rgba(21, 14, 75, 0.05);
-  padding: 5px;
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current {
+  background: #150e4b;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
-.ui-datepicker .ui-datepicker-header {
-  background: transparent;
-  border: 0;
-}
-
-.ui-datepicker .ui-datepicker-prev {
-  background: url(../images/chevron-left.svg);
-}
-
-.ui-datepicker .ui-datepicker-next {
-  background: url(../images/chevron-right.svg);
-}
-
-.ui-datepicker .ui-datepicker-prev,
-.ui-datepicker .ui-datepicker-next {
-  width: 1.2em;
-}
-
-.ui-datepicker .ui-state-hover {
-  border-color: transparent;
-}
-
-.ui-widget-content .ui-state-default {
-  border: 0;
-  background: transparent;
-}
-
-.ui-widget-content .ui-state-active {
-  color: #150e4b;
+.xdsoft_datetimepicker .xdsoft_calendar td:hover {
+  background: #fa2947 !important;
 }
 
 @media all and (max-width: 1599px) {
