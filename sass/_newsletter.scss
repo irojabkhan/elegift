@@ -3,13 +3,13 @@
 	Newsletter Style
 -----------------------------------------------*/
 
-.newsletter-wrap {
+.elegift-newsletter {
 	padding: 140px 100px;
 	border-radius: 30px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	.newsletter-content {
+	.newsletter__content {
 		margin-right: 50px;
 		h3 {
 			font-size: 4.0rem;
@@ -29,7 +29,7 @@
 		}
 
 	}
-	.newsletter-btn {
+	.newsletter__btn {
 		.btn {
 			width: 370px;
 			height: 70px;
@@ -40,26 +40,26 @@
 
 
 @media all and (max-width: 1199px) {
-	.newsletter-wrap {
+	.elegift-newsletter {
 		padding: 100px 50px;
 	}
 }
 
 @media all and (max-width: 991px) {
-	.newsletter-wrap {
-		.newsletter-content {
+	.elegift-newsletter {
+		.newsletter__content {
 			margin-right: 0;
 		}
 		display: block;
-		.newsletter-btn {
+		.newsletter__btn {
 			margin-top: 50px;
 		}
 	}
 }
 
 @media all and (max-width: 767px) {
-	.newsletter-wrap {
-		.newsletter-content {
+	.elegift-newsletter {
+		.newsletter__content {
 			h3 {
 				font-size: 2.4rem;
 			}
@@ -68,10 +68,10 @@
 }
 
 @media all and (max-width: 575px) {
-	.newsletter-wrap {
+	.elegift-newsletter {
 		padding: 60px 30px;
 		display: block;
-		.newsletter-btn {
+		.newsletter__btn {
 			.btn {
 				width: 200px;
 				.res-none {

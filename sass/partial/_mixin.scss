@@ -1,44 +1,9 @@
-@mixin borderRadius($radius) {
-	border-radius: $radius;
-	-ms-border-radius: $radius;
-	-moz-border-radius: $radius;
-	-webkit-border-radius: $radius;
-}
-
-@mixin transition($transition) {
-	transition: $transition;
-	-ms-transition: $transition;
-	-moz-transition: $transition;
-	-webkit-transition: $transition;
-}
 
 @mixin placeholder {
     &::-webkit-input-placeholder { @content; }
     &:-moz-placeholder { @content; }
     &::-moz-placeholder { @content; }
     &:-ms-input-placeholder { @content; }
-}
-
-%headerFont {
-	font-weight: 700;
-	font-family: $bodyFont;
-}
-
-%defaultFont {
-	font-family: $bodyFont;
-	font-weight: 400;
-	color: $fontColor;
-	font-size: 1.4rem;
-}
-
-%input {
-	outline: none;
-	box-shadow: none;
-}
-
-%faIcon {
-	font-family: 'Font Awesome\ 5 Free';
-	font-weight: 900;
 }
 
 $p-list: 30, 40, 50, 100, 150, 170, 180, 200;

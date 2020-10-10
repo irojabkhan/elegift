@@ -33,8 +33,8 @@
   <body>
 
     <!-- Preloader -->
-    <div class="preloader-wrap">
-      <div class='preloader'>
+    <div class="preloader">
+      <div class='preloader__container'>
         <img src="images/preloader.svg" class="img-fluid" alt="">
       </div>
     </div>
@@ -42,11 +42,11 @@
 
     <!-- Navigation -->
     <header>
-      <div class="nav-wrap">
+      <div class="navigation">
         <div class="container">
           <div class="row">
             <div class="col">
-              <nav class="navbar navbar-expand-lg wpd-nav">
+              <nav class="navbar navbar-expand-lg elegift-nav">
                 <div class="navbar-brand-wrap">
                   <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 </div>
@@ -83,11 +83,11 @@
     <!-- Navigation end -->
 
     <!-- Banner -->
-    <div class="banner-bg" id="home">
+    <div class="banner__bg" id="home">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <div class="banner-content">
+            <div class="elegift-banner">
               <h3 class="animate__animated animate__fadeInUp wow">The Best Gift Shop</h3>
               <h1 class="animate__animated animate__fadeInUp animate__delay-100ms wow" data-wow-delay=".15s">Creating Happiness For Your Loved Ones</h1> 
               <p class="animate__animated animate__fadeInUp animate__delay-200ms wow" data-wow-delay=".3s">Browse through some of the largest collection of gifts to brighten your day</p>
@@ -100,15 +100,15 @@
     <!-- Banner End -->
 
     <!-- Send Gift -->
-    <div class="grey-bg">
+    <div class="grey__bg">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="send-gift">
+            <div class="elegift-send__gift">
               <div class="title">
                 <h3 class="animate__animated animate__fadeInUp wow"><img src="images/gift-box.png" alt="">Need A Gift Now?</h3>
               </div>
-              <div class="gift-form">
+              <div class="send__gift__form">
                 <form action="#">
                   <div class="form-group select-input animate__animated animate__fadeInUp animate__delay-100ms wow">
                     <label>Where is it going?</label>
@@ -142,54 +142,54 @@
     <!-- Send Gift End -->
 
     <!-- Catetory -->
-    <div class="pt200 grey-bg">
+    <div class="pt200 grey__bg">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-sm-6">
-            <div class="category animate__animated animate__zoomIn wow">
-              <div class="thumb">
+            <div class="elegift-category animate__animated animate__zoomIn wow">
+              <div class="category__thumb">
                 <img src="images/category/1.jpg" class="img-fluid" alt="">
               </div>
-              <div class="overlay"></div>
-              <div class="content">
+              <div class="category__overlay"></div>
+              <div class="category__content">
                 <h4>Birthday Gift’s</h4>
-                <a href="#" class="btn btn-small"><span>View all</span></a>
+                <a href="#" class="btn btn--small"><span>View all</span></a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <div class="category animate__animated animate__zoomIn wow">
-              <div class="thumb">
+            <div class="elegift-category animate__animated animate__zoomIn wow">
+              <div class="category__thumb">
                 <img src="images/category/2.jpg" class="img-fluid" alt="">
               </div>
-              <div class="overlay"></div>
-              <div class="content">
+              <div class="category__overlay"></div>
+              <div class="category__content">
                 <h4>Anniversary</h4>
-                <a href="#" class="btn btn-small"><span>View all</span></a>
+                <a href="#" class="btn btn--small"><span>View all</span></a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <div class="category animate__animated animate__zoomIn wow">
-              <div class="thumb">
+            <div class="elegift-category animate__animated animate__zoomIn wow">
+              <div class="category__thumb">
                 <img src="images/category/3.jpg" class="img-fluid" alt="">
               </div>
-              <div class="overlay"></div>
-              <div class="content">
+              <div class="category__overlay"></div>
+              <div class="category__content">
                 <h4>Special Gift’s</h4>
-                <a href="#" class="btn btn-small"><span>View all</span></a>
+                <a href="#" class="btn btn--small"><span>View all</span></a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <div class="category animate__animated animate__zoomIn wow">
-              <div class="thumb">
+            <div class="elegift-category animate__animated animate__zoomIn wow">
+              <div class="category__thumb">
                 <img src="images/category/4.jpg" class="img-fluid" alt="">
               </div>
-              <div class="overlay"></div>
-              <div class="content">
+              <div class="category__overlay"></div>
+              <div class="category__content">
                 <h4>50% Off</h4>
-                <a href="#" class="btn btn-small"><span>View all</span></a>
+                <a href="#" class="btn btn--small"><span>View all</span></a>
               </div>
             </div>
           </div>
@@ -199,18 +199,18 @@
     <!-- Catetory End -->
 
     <!-- Products -->
-    <div class="pt150 grey-bg" id="product">
+    <div class="pt150 grey__bg" id="product">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="section-header">
+            <div class="section_header">
               <h2 class="animate__animated animate__fadeInUp wow">Popular Gift Collection</h2>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <ul class="nav nav-tabs product-menu" id="myTab" role="tablist">
+            <ul class="nav nav-tabs product__nav" id="myTab" role="tablist">
               <li class="nav-item animate__animated animate__fadeInUp wow" role="presentation">
                 <a class="nav-link active" id="new-tab" data-toggle="tab" href="#new" role="tab" aria-controls="new" aria-selected="true">New Gift’s</a>
               </li>
@@ -226,231 +226,231 @@
             </ul>
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
-                <div class="row">
+                <div class="row grid">
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/1.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/2.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/3.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/4.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/5.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/6.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/7.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/8.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/9.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/10.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/11.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card animate__animated animate__zoomIn wow">
-                      <div class="thumb">
+                    <div class="elegift-product animate__animated animate__zoomIn wow">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/12.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
@@ -458,238 +458,238 @@
                 </div>
                 <div class="row">
                   <div class="col">
-                    <div class="load-more">
+                    <div class="load__more">
                       <a href="#" class="btn animate__animated animate__fadeInUp wow"><span>View All</span></a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="tab-pane fade" id="top" role="tabpanel" aria-labelledby="top-tab">
-                <div class="row">
+                <div class="row grid">
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/4.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/5.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/6.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/1.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/2.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/3.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/7.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/8.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/9.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/10.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/11.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/12.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
@@ -697,238 +697,238 @@
                 </div>
                 <div class="row">
                   <div class="col">
-                    <div class="load-more">
+                    <div class="load__more">
                       <a href="#" class="btn animate__animated animate__fadeInUp wow"><span>View All</span></a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="tab-pane fade" id="trending" role="tabpanel" aria-labelledby="trending-tab">
-                <div class="row">
+                <div class="row grid">
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/7.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/8.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/9.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/4.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/5.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/6.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/1.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/2.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/3.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/10.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/11.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/12.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
@@ -936,238 +936,238 @@
                 </div>
                 <div class="row">
                   <div class="col">
-                    <div class="load-more">
+                    <div class="load__more">
                       <a href="#" class="btn animate__animated animate__fadeInUp wow"><span>View All</span></a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="tab-pane fade" id="best" role="tabpanel" aria-labelledby="best-tab">
-                <div class="row">
+                <div class="row grid">
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/10.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/11.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/12.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/7.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/8.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark bookmarked"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark product__bookmarked"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/9.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/4.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/5.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/6.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/1.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/2.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4 col-sm-6">
-                    <div class="product-card">
-                      <div class="thumb">
+                    <div class="elegift-product">
+                      <div class="product__thumb">
                         <a href="#"><img src="images/product/3.jpg" class="img-fluid" alt=""></a>
                       </div>
-                      <div class="product-card-content">
-                        <div class="product-title">
+                      <div class="product__content">
+                        <div class="product__title">
                           <h3><a href="#">Teddy Bear</a></h3>
-                          <a href="#" class="product-bookmark"><i class="lar la-bookmark"></i></a>
+                          <a href="#" class="product__bookmark"><i class="lar la-bookmark"></i></a>
                         </div>
-                        <p class="product-price-range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
-                        <p class="product-info">Earliest Delivery From 27 Nov</p>
-                        <div class="product-meta">
-                          <a href="#" class="btn btn-small"><span>Get Now</span></a>
-                          <span class="product-price">$27</span>
+                        <p class="product__price__range"><span class="min-price">$12.95</span> - <span class="max-price">147.56</span></p>
+                        <p class="product__info">Earliest Delivery From 27 Nov</p>
+                        <div class="product__meta">
+                          <a href="#" class="btn btn--small"><span>Get Now</span></a>
+                          <span class="product__price">$27</span>
                         </div>
                       </div>
                     </div>
@@ -1175,7 +1175,7 @@
                 </div>
                 <div class="row">
                   <div class="col">
-                    <div class="load-more">
+                    <div class="load__more">
                       <a href="#" class="btn animate__animated animate__fadeInUp wow"><span>View All</span></a>
                     </div>
                   </div>
@@ -1189,11 +1189,11 @@
     <!-- Products End -->
 
     <!-- Service -->
-    <div class="grey-bg pt180" id="service">
+    <div class="grey__bg pt180" id="service">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="section-header">
+            <div class="section_header">
               <h2 class="animate__animated animate__fadeInUp wow">We Don’t Just Send Gifts. We Deliver Happiness.</h2>
               <p class="animate__animated animate__fadeInUp animate__delay-100ms wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. industry's standard dummy text ever since the 1500s,</p>
             </div>
@@ -1201,8 +1201,8 @@
         </div> 
         <div class="row">
           <div class="col-xl-3 col-md-6">
-            <div class="service animate__animated animate__zoomIn wow">
-              <div class="icon">
+            <div class="elegift-service animate__animated animate__zoomIn wow">
+              <div class="service__icon">
                 <img src="images/service/1.png" class="img-fluid" alt="">
               </div>
               <h3>Birthday Gift’s</h3>
@@ -1210,8 +1210,8 @@
             </div>
           </div>
           <div class="col-xl-3 col-md-6">
-            <div class="service animate__animated animate__zoomIn wow">
-              <div class="icon">
+            <div class="elegift-service animate__animated animate__zoomIn wow">
+              <div class="service__icon">
                 <img src="images/service/2.png" class="img-fluid" alt="">
               </div>
               <h3>Anniversary Gifts</h3>
@@ -1219,8 +1219,8 @@
             </div>
           </div>
           <div class="col-xl-3 col-md-6">
-            <div class="service animate__animated animate__zoomIn wow">
-              <div class="icon">
+            <div class="elegift-service animate__animated animate__zoomIn wow">
+              <div class="service__icon">
                 <img src="images/service/3.png" class="img-fluid" alt="">
               </div>
               <h3>Special Gift’s</h3>
@@ -1228,8 +1228,8 @@
             </div>
           </div>
           <div class="col-xl-3 col-md-6">
-            <div class="service animate__animated animate__zoomIn wow">
-              <div class="icon">
+            <div class="elegift-service animate__animated animate__zoomIn wow">
+              <div class="service__icon">
                 <img src="images/service/4.png" class="img-fluid" alt="">
               </div>
               <h3>Love Gift’s</h3>
@@ -1242,16 +1242,16 @@
     <!-- Service End -->
 
     <!-- About -->
-    <div class="pt150 grey-bg">
+    <div class="pt150 grey__bg">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 order-lg-2">
-            <div class="promo-video promo-video-bg animate__animated animate__fadeInRight wow">
+            <div class="elegift-promo_video promo_video__bg animate__animated animate__fadeInRight wow">
               <a href="https://www.youtube.com/watch?v=rc-5L7fek3M" class="play-btn"><span></span></a>
             </div>
           </div>
           <div class="col-lg-5 order-lg-1">
-            <div class="featured-content pt50 animate__animated animate__fadeInLeft wow">
+            <div class="elegift-featured__content pt50 animate__animated animate__fadeInLeft wow">
               <h2>What Makes Us Different?</h2> 
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
               <a href="#" class="btn"><span>About Us</span></a>
@@ -1263,11 +1263,11 @@
     <!-- About End -->
 
     <!-- How it Works -->
-    <div class="pt180 grey-bg">
+    <div class="pt180 grey__bg">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="section-header long-header">
+            <div class="section_header long-header">
               <h2 class="animate__animated animate__fadeInUp wow">How Does It Work?</h2>
               <p class="animate__animated animate__fadeInUp animate__delay-100ms wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
             </div>
@@ -1275,24 +1275,24 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
-            <div class="how-it-work animate__animated animate__fadeInUp wow">
+            <div class="elegift-how_it_work animate__animated animate__fadeInUp wow">
               <h4>Choose From Our Collection Of Popular Gifts For Every Occasion</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-              <a href="#" class="btn btn-small"><span>Read More</span></a>
+              <a href="#" class="btn btn--small"><span>Read More</span></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="how-it-work white-bg animate__animated animate__fadeInUp wow animate__delay-100ms">
+            <div class="elegift-how_it_work white-bg animate__animated animate__fadeInUp wow animate__delay-100ms">
               <h4>Enter Delivery Address, Date, and Time. Add A Personalized Note.</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-              <a href="#" class="btn btn-small"><span>Read More</span></a>
+              <a href="#" class="btn btn--small"><span>Read More</span></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="how-it-work animate__animated animate__fadeInUp wow animate__delay-200ms">
+            <div class="elegift-how_it_work animate__animated animate__fadeInUp wow animate__delay-200ms">
               <h4>Have Your Gifts Delivered To The Doorstep Of Your Loved Ones</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-              <a href="#" class="btn btn-small"><span>Read More</span></a>
+              <a href="#" class="btn btn--small"><span>Read More</span></a>
             </div>
           </div>
         </div>
@@ -1301,16 +1301,16 @@
     <!-- How it Works End -->
 
     <!-- Newsletter -->
-    <div class="grey-bg pt150 pb150" id="contact">
+    <div class="grey__bg pt150 pb150" id="contact">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="newsletter-wrap white-bg">
-              <div class="newsletter-content animate__animated animate__fadeInLeft wow">
+            <div class="elegift-newsletter white-bg">
+              <div class="newsletter__content animate__animated animate__fadeInLeft wow">
                 <h3>Want More Special Gift Ideas?</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
               </div>
-              <div class="newsletter-btn animate__animated animate__fadeInRight wow">
+              <div class="newsletter__btn animate__animated animate__fadeInRight wow">
                 <a href="#" class="btn"><span>Subscribe <span class="res-none">To Our Newsletter</span></span></a>
               </div>
             </div>
@@ -1321,16 +1321,16 @@
     <!-- Newsletter End -->
 
     <!-- Footer -->
-    <footer class="grey-bg pb100">
+    <footer class="grey__bg pb100">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-3 order-lg-1">
-            <div class="footer-logo">
+            <div class="elegift-footer__logo">
               <a href="#"><img src="images/logo.png" class="img-fluid" alt=""></a>
             </div>
           </div>
           <div class="col-lg-3 order-lg-3">
-            <div class="footer-social-link">
+            <div class="elegift-footer__social__link">
               <ul>
                 <li><a href="#" class="facebook"><i class="lab la-facebook-f"></i></a></li>
                 <li><a href="#" class="twitter"><i class="lab la-twitter"></i></a></li>
@@ -1340,8 +1340,8 @@
             </div>
           </div>
           <div class="col-lg-6 order-lg-2">
-            <div class="copyright">
-              <p>&copy; Copyright 2020. Powered by <a href="#">WPDeveloper</a></p>
+            <div class="elegift-footer__copyright">
+              <p>&copy; copyright 2020. Powered by <a href="#">WPDeveloper</a></p>
             </div>
           </div>
         </div>
@@ -1351,8 +1351,6 @@
 
 
 
-    
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery.min.js"></script>
@@ -1361,6 +1359,7 @@
 
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/jquery.datetimepicker.full.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/jquery.nav.js"></script>
     <script src="assets/js/wow.js"></script>
 

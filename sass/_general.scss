@@ -19,6 +19,7 @@ body {
 	font-size: 1.4rem;
 	line-height: 1.85;
 	color: $fontColor;
+	overflow-x: hidden;
 }
 
 h1,
@@ -74,7 +75,7 @@ p {
 }
 
 a {
-	@include transition(all .3s ease);
+	transition: all .3s ease;
 	outline: none;
 	text-decoration: none;
 }
@@ -95,15 +96,8 @@ textarea {
 input,
 .form-control {
 	@include placeholder {
-		color: $fontColor;
+		color: $logan;
 	}
-}
-
-button, .btn {
-	border: 0;
-	background: transparent;
-	outline: none;
-	box-shadow: none;
 }
 
 .white-text {
@@ -179,25 +173,27 @@ button, .btn {
 		filter: blur(30px);
 		transition: all 0.3s ease;
 	}
-	&.btn-small {
-		height: 50px;
-		font-size: 1.3rem;
-		border-radius: 15px;
-		width: 120px;
-		&:before {
-			background: transparent;
-		}
-		&:after {
-			background: transparent; 
-		}
+}
+
+
+.btn--small {
+	height: 50px;
+	font-size: 1.3rem;
+	border-radius: 15px;
+	width: 120px;
+	&:before {
+		background: transparent;
+	}
+	&:after {
+		background: transparent; 
 	}
 }
 
-.grey-bg {
+.grey__bg {
 	background: $liteGrey;
 }
 
-.preloader-wrap {
+.preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -206,14 +202,13 @@ button, .btn {
   background: $white;
   z-index: 999999;
 }
-.preloader {
+.preloader__container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 64px;
 }
-
 
 @media all and (min-width: 1600px) {
 	.container, 

@@ -5,7 +5,7 @@
 
 header {
 	position: relative;
-	.nav-wrap {
+	.navigation {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -13,16 +13,16 @@ header {
 		z-index: 9;
 		transition: all .3s ease;
 		padding-top: 25px;
-		&.fixed {
-			position: fixed;
-			background: $white;
-			padding-top: 0;
-			box-shadow: 0 2px 5px rgba($headerColor, .1);
-		}
+	}
+	.fixed {
+		position: fixed;
+		background: $white;
+		padding-top: 0;
+		box-shadow: 0 2px 5px rgba($headerColor, .1);
 	}
 }
 
-.wpd-nav {
+.elegift-nav {
 	padding: 20px 0;
 	.navbar-brand-wrap {
 		order: 1;
@@ -113,7 +113,7 @@ header {
 
 
 @media all and (max-width: 1199px) {
-	.wpd-nav {
+	.elegift-nav {
 		.navbar-collapse {
 			.navbar-nav {
 				.nav-item {
@@ -126,7 +126,7 @@ header {
 
 
 @media all and (max-width: 991px) {
-	.wpd-nav {
+	.elegift-nav {
 		padding: 15px 0;
 		.navbar-brand-wrap {
 			order: 1;
@@ -174,7 +174,7 @@ header {
 }
 
 @media all and (max-width: 575px) {
-	.wpd-nav {
+	.elegift-nav {
 		.navbar-brand-wrap {
 			flex: 0 0 auto;
 		}

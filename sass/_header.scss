@@ -3,7 +3,7 @@
 	Header Style
 -----------------------------------------------*/
 
-.section-header {
+.section_header {
 	text-align: center;
 	max-width: 650px;
 	margin: 0 auto 85px;
@@ -28,13 +28,13 @@
 }
 
 @media all and (max-width: 991px) {
-	.section-header {
+	.section_header {
 		margin-bottom: 50px;
 	}
 }
 
 @media all and (max-width: 767px) {
-	.section-header {
+	.section_header {
 		h2 {
 			font-size: 3.2rem;
 		}

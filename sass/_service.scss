@@ -1,13 +1,13 @@
 /*----------------------------------------------
-	Product Style
+	Service Style
 -----------------------------------------------*/
 
-.service {
+.elegift-service {
 	background: $white;
 	border-radius: 30px;
 	padding: 70px 50px 90px;
 	margin-bottom: 50px;
-	.icon {
+	.service__icon {
 		margin-bottom: 35px;
 	}
 	h3 {
@@ -28,7 +28,7 @@
 
 
 @media all and (max-width: 499px) {
-	.service {
+	.elegift-service {
 		padding: 70px 40px 90px;
 	}
 }
